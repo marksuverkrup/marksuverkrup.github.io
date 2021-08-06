@@ -325,7 +325,7 @@
 {
     .banner
     {
-        padding: 50px
+        padding: 50px;
     }
     .banner header
     {
@@ -333,13 +333,17 @@
     }
     .banner .content h2
     {
+        font-size: 36px;
+    }
+    .banner .content p
+    {
         font-size: 16px;
     }
     .about
     {
         flex-direction: column;
     }
-    .about .contentBx
+    .about .contentBx,
     .about .imgBx
     {
         width: 100%;
@@ -383,6 +387,10 @@
         justify-content: center;
     }
     .testimonials
+    {
+        padding: 50px;
+    }
+    .testimonials .contentBx
     {
         padding: 60px 40px;
         max-width: 550px;
