@@ -220,7 +220,7 @@
 }
 .client
 {
-    background: #162c3b;
+    background: #2b3866;
     padding: 100px;
     text-align: center;
 }
@@ -234,14 +234,15 @@
 }
 .client .imgBx img
 {
-    max-width: 200px;
-    margin: 20px;
-    opacity: 0.25;
+    max-width: 240px;
+    min-height: 70px;
+    margin: 15px;
+    opacity: 1;
     cursor: pointer;
 }
 .client .imgBx img:hover
 {
-    opacity: 1;
+    opacity: .40;
 }
 .testimonials
 {
@@ -286,7 +287,7 @@
 }
 .imgBx2
 {
-    background: url(Assets/bg2.jpg);
+    background: url(Assets/Linkedin.jpg);
     background-size: cover;
     background-position: center;
     width: 50%;
