@@ -263,7 +263,7 @@
 {
     background: #fff;
     padding: 60px 50px;
-    width: 550px;
+    width: 1500px;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -447,7 +447,7 @@
     .testimonials .contentBx
     {
         padding: 60px 40px;
-        max-width: 550px;
+        max-width: 1000px;
         margin-bottom: 40px;
     }
     .testimonials .contentBx:last-child
